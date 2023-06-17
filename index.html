@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="DOM/img/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="DOM/src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body class="body">
+<div class="principal">
+
+    <div class="tarjeta">
+        <h3>Contador</h3>
+        <div class="container">
+            <button class="btnG" id="increment-btn">+</button>
+            <div class="counter">0</div>
+            <button class="btnG" id="decrement-btn">-</button>
+        </div>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Temporizador</h3>
+        <div class="container">
+            <input type="number" id="time-input" placeholder="Tiempo en segundos">
+            <button class="btnG" id="start-btn">Iniciar temporizador</button>
+            <div class="timer"></div>
+        </div>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Calculadora</h3>
+        <div class="container2">
+            <input type="number" id="num1" placeholder="Ingrese el primer número">
+            <input type="number" id="num2" placeholder="Ingrese el segundo número">
+            <div class="grid">
+                <button class="btnG" id="add-btn">+</button>
+                <button class="btnG" id="subtract-btn">-</button>
+                <button class="btnG" id="multiply-btn">*</button>
+                <button class="btnG" id="divide-btn">/</button>
+            </div>
+            <div class="result"></div>
+        </div>
+    </div>
+
+</div>
+
+    <script src="DOM/src/index.js"></script>
+</body>
+
+</html>
